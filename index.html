@@ -13,6 +13,7 @@
     <form>
         <h1>🌱 Quiz Écologie - Niveau Facile</h1>
         <div class="question">
+            <p>1️⃣ Quel gaz est responsable du réchauffement climatique ?</p>
             <label><input type="radio" name="q1" value="a"> a) L’oxygène (O₂)</label><br>
             <label><input type="radio" name="q1" value="b"> b) Le dioxyde de carbone (CO₂)</label><br>
             <label><input type="radio" name="q1" value="c"> c) L’azote (N₂)</label><br>
@@ -48,55 +49,55 @@
 
         <div class="question">
             <p>5️⃣ Quel est le principal polluant des océans ?</p>
-            <label><input type="radio" name="q5"> a) Le sel</label><br>
-            <label><input type="radio" name="q5"> b) Le plastique</label><br>
-            <label><input type="radio" name="q5"> c) Les algues</label><br>
-            <label><input type="radio" name="q5"> d) Les coquillages</label>
+            <label><input type="radio" name="q5" value="a"> a) Le sel</label><br>
+            <label><input type="radio" name="q5" value="b"> b) Le plastique</label><br>
+            <label><input type="radio" name="q5" value="c"> c) Les algues</label><br>
+            <label><input type="radio" name="q5" value="d"> d) Les coquillages</label>
             <br>
         </div>
 
         <div class="question">
             <p>6️⃣ Quel est le symbole universel du recyclage ?</p>
-            <label><input type="radio" name="q6"> a) Une flèche</label><br>
-            <label><input type="radio" name="q6"> b) Trois flèches formant un triangle</label><br>
-            <label><input type="radio" name="q6"> c) Un cercle bleu</label><br>
-            <label><input type="radio" name="q6"> d) Une goutte d’eau</label>
+            <label><input type="radio" name="q6" value="a"> a) Une flèche</label><br>
+            <label><input type="radio" name="q6" value="b"> b) Trois flèches formant un triangle</label><br>
+            <label><input type="radio" name="q6" value="c"> c) Un cercle bleu</label><br>
+            <label><input type="radio" name="q6" value="d"> d) Une goutte d’eau</label>
             <br>
         </div>
 
         <div class="question">
             <p>7️⃣ Comment peut-on économiser de l'énergie chez soi ?</p>
-            <label><input type="radio" name="q7"> a) Laisser les appareils en veille</label><br>
-            <label><input type="radio" name="q7"> b) Utiliser des ampoules à faible consommation</label><br>
-            <label><input type="radio" name="q7"> c) Garder les fenêtres ouvertes en hiver</label><br>
-            <label><input type="radio" name="q7"> d) Allumer toutes les lumières dès qu’on entre</label>
+            <label><input type="radio" name="q7" value="a"> a) Laisser les appareils en veille</label><br>
+            <label><input type="radio" name="q7" value="b"> b) Utiliser des ampoules à faible consommation</label><br>
+            <label><input type="radio" name="q7" value="c"> c) Garder les fenêtres ouvertes en hiver</label><br>
+            <label><input type="radio" name="q7" value="d"> d) Allumer toutes les lumières dès qu’on entre</label>
             <br>
         </div>
 
         <div class="question">
             <p>8️⃣ Quel est un moyen simple de réduire sa consommation de plastique ?</p>
-            <label><input type="radio" name="q8"> a) Acheter des bouteilles plastiques</label><br>
-            <label><input type="radio" name="q8"> b) Utiliser des sacs en plastique à usage unique</label><br>
-            <label><input type="radio" name="q8"> c) Utiliser des sacs réutilisables</label><br>
-            <label><input type="radio" name="q8"> d) Jeter les plastiques dans la nature</label>
+            <label><input type="radio" name="q8" value="a"> a) Acheter des bouteilles plastiques</label><br>
+            <label><input type="radio" name="q8" value="b"> b) Utiliser des sacs en plastique à usage unique</label><br>
+            <label><input type="radio" name="q8" value="c"> c) Utiliser des sacs réutilisables</label><br>
+            <label><input type="radio" name="q8" value="d"> d) Jeter les plastiques dans la nature</label>
             <br>
         </div>
 
         <div class="question">
             <p>9️⃣ Quel est un animal menacé par la pollution des océans ?</p>
-            <label><input type="radio" name="q9"> a) Le dauphin</label><br>
-            <label><input type="radio" name="q9"> b) Le chat</label><br>
-            <label><input type="radio" name="q9"> c) Le tigre</label><br>
-            <label><input type="radio" name="q9"> d) Le kangourou</label>
+            <label><input type="radio" name="q9" value="a"> a) Le dauphin</label><br>
+            <label><input type="radio" name="q9" value="b"> b) Le chat</label><br>
+            <label><input type="radio" name="q9" value="c"> c) Le tigre</label><br>
+            <label><input type="radio" name="q9" value="d"> d) Le kangourou</label>
             <br>
         </div>
 
         <div class="question">
             <p>🔟 Quelle couleur de poubelle est utilisée pour recycler le papier ?</p>
-            <label><input type="radio" name="q10"> a) Rouge</label><br>
-            <label><input type="radio" name="q10"> b) Bleu</label><br>
-            <label><input type="radio" name="q10"> c) Vert</label><br>
-            <label><input type="radio" name="q10"> d) Noir</label>
+            <label><input type="radio" name="q10" value="a"> a) Rouge</label><br>
+            <label><input type="radio" name="q10" value="b"> b) Bleu</label><br>
+            <label><input type="radio" name="q10" value="c"> c) Vert</label><br>
+            <label><input type="radio" name="q10" value="d"> d) Noir</label>
             <br>
         </div>
         <button type="submit">Validez mes réponses</button>
@@ -104,64 +105,6 @@
 
     <div id="resultContainer"></div>
 
-    <script>
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-        
-            // Définition des réponses correctes (les valeurs correspondent aux attributs "value" des inputs)
-            const bonnesReponses = {
-                q1: 'b',  // Le dioxyde de carbone (CO₂)
-                q2: 'c',  //  Fermer l’eau pendant le brossage de dents
-                q3: 'c',  // Une bouteille en plastique
-                q4: 'a',  // L’énergie solaire 
-                q5: 'b',  // Le plastique
-                q6: 'b',  // Trois flèches formant un triangle
-                q7: 'b',  // Utiliser des ampoules à faible consommation
-                q8: 'c',  // Utiliser des sacs réutilisables
-                q9: 'a',  // Le dauphin
-                q10: 'b',  // Bleu
-            };
-        
-            // Texte des bonnes réponses à afficher
-            const texteReponses = {
-                q1: "Le dioxyde de carbone (CO₂)",
-                q2: "Fermer l’eau pendant le brossage de dents",
-                q3: "Une bouteille en plastique",
-                q4: "L’énergie solaire e",
-                q5: " Le plastique",
-                q6: "Trois flèches formant un triangle",
-                q7: "Utiliser des ampoules à faible consommation",
-                q8: "Utiliser des sacs réutilisables",
-                q9: "Le dauphin",
-                q10: "Bleu"
-            };
-        
-            let score = 0;
-            // Vérification des réponses
-            for (let question in bonnesReponses) {
-                const selected = document.querySelector(`input[name="${question}"]:checked`);
-                if (selected && selected.value === bonnesReponses[question]) {
-                    score++;
-                }
-            }
-            
-            // Création de l'affichage (uniquement score et bonnes réponses)
-            let output = `<h2 style="color: blue; margin: 0;">🌱 Score : ${score}/10 🌱</h2>`;
-            output += `<h3 style="color: green; margin: 0;">Bonnes réponses :</h3>`;
-            output += `<ul style="list-style: none; padding: 0; margin: 0;">`;
-            for (let question in texteReponses) {
-                output += `<li style="color: green; margin: 5px 0;">Bonnes réponses : ${texteReponses[question]}</li>`;
-            }
-            output += `</ul>`;
-            
-            // Affichage dans l'élément dédié aux résultats
-            document.getElementById('resultContainer').innerHTML = output;
-            document.querySelector('form').reset();
-        });
-        </script>
-        
-        
-        
 
     <form>
         <h1>♻️ Quiz Écologie - Niveau Moyen</h1>
@@ -352,6 +295,123 @@
         </div>
         <button type="submit">Validez mes réponses</button>
     </form>
+
+    <script>
+        document.querySelector('form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Niveau Facile Définition des réponses correctes (les valeurs correspondent aux attributs "value" des inputs)
+            const bonnesReponses = {
+                q1: 'b',  // Le dioxyde de carbone (CO₂)
+                q2: 'c',  //  Fermer l’eau pendant le brossage de dents
+                q3: 'c',  // Une bouteille en plastique
+                q4: 'a',  // L’énergie solaire 
+                q5: 'b',  // Le plastique
+                q6: 'b',  // Trois flèches formant un triangle
+                q7: 'b',  // Utiliser des ampoules à faible consommation
+                q8: 'c',  // Utiliser des sacs réutilisables
+                q9: 'a',  // Le dauphin
+                q10: 'b',  // Bleu
+            };
+
+            // Texte des bonnes réponses à afficher
+            const texteReponses = {
+                q1: "Le dioxyde de carbone (CO₂)",
+                q2: "Fermer l’eau pendant le brossage de dents",
+                q3: "Une bouteille en plastique",
+                q4: "L’énergie solaire e",
+                q5: " Le plastique",
+                q6: "Trois flèches formant un triangle",
+                q7: "Utiliser des ampoules à faible consommation",
+                q8: "Utiliser des sacs réutilisables",
+                q9: "Le dauphin",
+                q10: "Bleu",
+            };
+
+            let score = 0;
+            // Vérification des réponses
+            for (let question in bonnesReponses) {
+                const selected = document.querySelector(`input[name="${question}"]:checked`);
+                if (selected && selected.value === bonnesReponses[question]) {
+                    score++;
+                }
+            }
+
+            // Création de l'affichage (uniquement score et bonnes réponses)
+            let output = `<h2 style="color: blue; margin: 0;">🌱 Score : ${score}/10 🌱</h2>`;
+            output += `<h3 style="color: green; margin: 0;">Bonnes réponses :</h3>`;
+            output += `<ul style="list-style: none; padding: 0; margin: 0;">`;
+            for (let question in texteReponses) {
+                output += `<li style="color: green; margin: 5px 0;">Bonnes réponses : ${texteReponses[question]}</li>`;
+            }
+            output += `</ul>`;
+
+            // Affichage dans l'élément dédié aux résultats
+            document.getElementById('resultContainer').innerHTML = output;
+            document.querySelector('form').reset();
+        });
+    </script>
+
+
+    <script>
+        document.querySelector('form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+
+            // Niveau Moyen  Définition des réponses correctes (les valeurs correspondent aux attributs "value" des inputs)
+            const bonnesReponses = {
+                q1: 'c',  // Les émissions de voitures
+                q2: 'b',  // Le réchauffement climatique
+                q3: 'b',  // Une bouteille en plastique
+                q4: 'a',  // Le CO₂
+                q5: 'c',  // Elles polluent l’air
+                q6: 'a',  // Une énergie qui ne pollue pas l’environnement
+                q7: 'b',  // Des déchets alimentaires
+                q8: 'b',  // Le métal
+                q9: 'b',  // La Chine
+                q10: 'd',  // 450 ans
+            };
+
+            // Texte des bonnes réponses à afficher
+            const texteReponses = {
+                q1: "Les émissions de voitures",
+                q2: " Le réchauffement climatique",
+                q3: "Une bouteille en plastique",
+                q4: "Le CO₂",
+                q5: "Elles polluent l’air",
+                q6: "Une énergie qui ne pollue pas l’environnement",
+                q7: "Des déchets alimentaires",
+                q8: "Le métal",
+                q9: "La Chine",
+                q10: "450 ans",
+            };
+
+
+            let score = 0;
+            // Vérification des réponses
+            for (let question in bonnesReponses) {
+                const selected = document.querySelector(`input[name="${question}"]:checked`);
+                if (selected && selected.value === bonnesReponses[question]) {
+                    score++;
+                }
+            }
+
+            // Création de l'affichage (uniquement score et bonnes réponses)
+            let output = `<h2 style="color: blue; margin: 0;">🌱 Score : ${score}/10 🌱</h2>`;
+            output += `<h3 style="color: green; margin: 0;">Bonnes réponses :</h3>`;
+            output += `<ul style="list-style: none; padding: 0; margin: 0;">`;
+            for (let question in texteReponses) {
+                output += `<li style="color: green; margin: 5px 0;">Bonnes réponses : ${texteReponses[question]}</li>`;
+            }
+            output += `</ul>`;
+
+            // Affichage dans l'élément dédié aux résultats
+            document.getElementById('resultContainer').innerHTML = output;
+            document.querySelector('form').reset();
+        });
+    </script>
+
+
 
 
 
