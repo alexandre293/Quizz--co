@@ -10,7 +10,7 @@
 
 <body>
 
-    <form>
+    <form id="formFacile">
         <h1>🌱 Quiz Écologie - Niveau Facile</h1>
         <div class="question">
             <p>1️⃣ Quel gaz est responsable du réchauffement climatique ?</p>
@@ -26,7 +26,6 @@
             <label><input type="radio" name="q2" value="b"> b) Laver la vaisselle sous l’eau courante</label><br>
             <label><input type="radio" name="q2" value="c"> c) Fermer l’eau pendant le brossage de dents</label><br>
             <label><input type="radio" name="q2" value="d"> d) Utiliser plus de détergents</label>
-            <br>
         </div>
 
         <div class="question">
@@ -35,7 +34,6 @@
             <label><input type="radio" name="q3" value="b"> b) Un morceau de papier</label><br>
             <label><input type="radio" name="q3" value="c"> c) Une bouteille en plastique</label><br>
             <label><input type="radio" name="q3" value="d"> d) Un noyau de pêche</label>
-            <br>
         </div>
 
         <div class="question">
@@ -44,7 +42,6 @@
             <label><input type="radio" name="q4" value="b"> b) Le charbon</label><br>
             <label><input type="radio" name="q4" value="c"> c) Le pétrole</label><br>
             <label><input type="radio" name="q4" value="d"> d) Le gaz naturel</label>
-            <br>
         </div>
 
         <div class="question">
@@ -53,7 +50,6 @@
             <label><input type="radio" name="q5" value="b"> b) Le plastique</label><br>
             <label><input type="radio" name="q5" value="c"> c) Les algues</label><br>
             <label><input type="radio" name="q5" value="d"> d) Les coquillages</label>
-            <br>
         </div>
 
         <div class="question">
@@ -62,7 +58,6 @@
             <label><input type="radio" name="q6" value="b"> b) Trois flèches formant un triangle</label><br>
             <label><input type="radio" name="q6" value="c"> c) Un cercle bleu</label><br>
             <label><input type="radio" name="q6" value="d"> d) Une goutte d’eau</label>
-            <br>
         </div>
 
         <div class="question">
@@ -71,7 +66,6 @@
             <label><input type="radio" name="q7" value="b"> b) Utiliser des ampoules à faible consommation</label><br>
             <label><input type="radio" name="q7" value="c"> c) Garder les fenêtres ouvertes en hiver</label><br>
             <label><input type="radio" name="q7" value="d"> d) Allumer toutes les lumières dès qu’on entre</label>
-            <br>
         </div>
 
         <div class="question">
@@ -80,7 +74,6 @@
             <label><input type="radio" name="q8" value="b"> b) Utiliser des sacs en plastique à usage unique</label><br>
             <label><input type="radio" name="q8" value="c"> c) Utiliser des sacs réutilisables</label><br>
             <label><input type="radio" name="q8" value="d"> d) Jeter les plastiques dans la nature</label>
-            <br>
         </div>
 
         <div class="question">
@@ -89,7 +82,6 @@
             <label><input type="radio" name="q9" value="b"> b) Le chat</label><br>
             <label><input type="radio" name="q9" value="c"> c) Le tigre</label><br>
             <label><input type="radio" name="q9" value="d"> d) Le kangourou</label>
-            <br>
         </div>
 
         <div class="question">
@@ -98,15 +90,15 @@
             <label><input type="radio" name="q10" value="b"> b) Bleu</label><br>
             <label><input type="radio" name="q10" value="c"> c) Vert</label><br>
             <label><input type="radio" name="q10" value="d"> d) Noir</label>
-            <br>
         </div>
         <button type="submit">Validez mes réponses</button>
     </form>
 
-    <div id="resultContainer"></div>
+    <!-- Conteneur de résultats pour le quiz Facile -->
+    <div id="resultContainerFacile"></div>
 
-
-    <form>
+    <!-- Quiz Niveau Moyen -->
+    <form id="formMoyen">
         <h1>♻️ Quiz Écologie - Niveau Moyen</h1>
         <div class="question">
             <p>1️⃣ Quelle est la principale source de pollution de l’air ?</p>
@@ -114,7 +106,6 @@
             <input type="radio" name="q1" value="b"> b) Le dioxyde de carbone<br>
             <input type="radio" name="q1" value="c"> c) Les émissions de voitures<br>
             <input type="radio" name="q1" value="d"> d) Les aérosols<br>
-            <br>
         </div>
 
         <div class="question">
@@ -123,7 +114,6 @@
             <input type="radio" name="q2" value="b"> b) Le réchauffement climatique<br>
             <input type="radio" name="q2" value="c"> c) La disparition des forêts<br>
             <input type="radio" name="q2" value="d"> d) La réduction des océans<br>
-            <br>
         </div>
 
         <div class="question">
@@ -132,7 +122,6 @@
             <input type="radio" name="q3" value="b"> b) Le gaz naturel<br>
             <input type="radio" name="q3" value="c"> c) L’énergie nucléaire<br>
             <input type="radio" name="q3" value="d"> d) Le pétrole<br>
-            <br>
         </div>
 
         <div class="question">
@@ -141,17 +130,14 @@
             <input type="radio" name="q4" value="b"> b) L’eau polluée<br>
             <input type="radio" name="q4" value="c"> c) Le plastique<br>
             <input type="radio" name="q4" value="d"> d) Les produits chimiques<br>
-            <br>
         </div>
 
         <div class="question">
-
             <p>5️⃣ Pourquoi les forêts sont-elles importantes pour l’environnement ?</p>
             <input type="radio" name="q5" value="a"> a) Elles absorbent le CO₂<br>
             <input type="radio" name="q5" value="b"> b) Elles créent des déchets<br>
             <input type="radio" name="q5" value="c"> c) Elles polluent l’air<br>
             <input type="radio" name="q5" value="d"> d) Elles ne sont pas importantes<br>
-            <br>
         </div>
 
         <div class="question">
@@ -160,7 +146,6 @@
             <input type="radio" name="q6" value="b"> b) Une énergie qui émet plus de CO₂<br>
             <input type="radio" name="q6" value="c"> c) Une énergie utilisée dans les voitures<br>
             <input type="radio" name="q6" value="d"> d) Une énergie qui ne coûte rien<br>
-            <br>
         </div>
 
         <div class="question">
@@ -169,9 +154,7 @@
             <input type="radio" name="q7" value="b"> b) Des déchets alimentaires<br>
             <input type="radio" name="q7" value="c"> c) Du plastique<br>
             <input type="radio" name="q7" value="d"> d) Des canettes<br>
-            <br>
         </div>
-
 
         <div class="question">
             <p>8️⃣ Quelle est la meilleure alternative au plastique ?</p>
@@ -179,7 +162,6 @@
             <input type="radio" name="q8" value="b"> b) Le métal<br>
             <input type="radio" name="q8" value="c"> c) Le carton<br>
             <input type="radio" name="q8" value="d"> d) Le papier<br>
-            <br>
         </div>
 
         <div class="question">
@@ -188,7 +170,6 @@
             <input type="radio" name="q9" value="b"> b) La Chine<br>
             <input type="radio" name="q9" value="c"> c) Les États-Unis<br>
             <input type="radio" name="q9" value="d"> d) Le Brésil<br>
-            <br>
         </div>
 
         <div class="question">
@@ -197,219 +178,268 @@
             <input type="radio" name="q10" value="b"> b) 2 ans<br>
             <input type="radio" name="q10" value="c"> c) 20 ans<br>
             <input type="radio" name="q10" value="d"> d) 450 ans<br>
-            <br>
         </div>
         <button type="submit">Validez mes réponses</button>
     </form>
 
-    <form>
-        <h1>🌍 Quiz Écologie - Niveau Difficile</h1>
-        <div class="question">
-            <p>1️⃣ Quelle est la conséquence principale de l’acidification des océans ?</p>
-            <input type="radio" name="q1" value="a"> a) La disparition des poissons<br>
-            <input type="radio" name="q2" value="b"> b) La croissance des algues<br>
-            <input type="radio" name="q3" value="c"> c) La menace pour les coraux et coquillages<br>
-            <input type="radio" name="q4" value="d"> d) Une amélioration de la biodiversités<br>
-            <br>
-        </div>
+    <!-- Conteneur de résultats pour le quiz Moyen -->
+    <div id="resultContainerMoyen"></div>
 
-        <div class="question">
-            <p>2️⃣ Quel est le gaz le plus responsable de la destruction de la couche d’ozone ?</p>
-            <input type="radio" name="q1" value="a"> a) Le méthane<br>
-            <input type="radio" name="q1" value="b"> b) Le dioxyde de carbone<br>
-            <input type="radio" name="q1" value="c"> c) Les CFC (chlorofluorocarbures)<br>
-            <input type="radio" name="q1" value="d"> d) L’azote<br>
-            <br>
-        </div>
 
-        <div class="question">
-            <p>3️⃣ Quel pays a réduit sa déforestation en Amazonie ?</p>
-            <input type="radio" name="q2" value="a"> a) La Chine<br>
-            <input type="radio" name="q2" value="b"> b) Le Brésil<br>
-            <input type="radio" name="q2" value="c"> c) La Russie<br>
-            <input type="radio" name="q2" value="d"> d) L’Indonésie<br>
-            <br>
-        </div>
+  <form id="formDifficile">
+    <h1>🌍 Quiz Écologie - Niveau Difficile</h1>
+    
+    <div class="question">
+        <p>1️⃣ Quelle est la conséquence principale de l’acidification des océans ?</p>
+        <input type="radio" name="q1" value="a"> a) La disparition des poissons<br>
+        <input type="radio" name="q1" value="b"> b) La croissance des algues<br>
+        <input type="radio" name="q1" value="c"> c) La menace pour les coraux et coquillages<br>
+        <input type="radio" name="q1" value="d"> d) Une amélioration de la biodiversité<br>
+        <br>
+    </div>
+    
+    <div class="question">
+        <p>2️⃣ Quel est le gaz le plus responsable de la destruction de la couche d’ozone ?</p>
+        <input type="radio" name="q2" value="a"> a) Le méthane<br>
+        <input type="radio" name="q2" value="b"> b) Le dioxyde de carbone<br>
+        <input type="radio" name="q2" value="c"> c) Les CFC (chlorofluorocarbures)<br>
+        <input type="radio" name="q2" value="d"> d) L’azote<br>
+        <br>
+    </div>
+    
+    <div class="question">
+        <p>3️⃣ Quel pays a réduit sa déforestation en Amazonie ?</p>
+        <input type="radio" name="q3" value="a"> a) La Chine<br>
+        <input type="radio" name="q3" value="b"> b) Le Brésil<br>
+        <input type="radio" name="q3" value="c"> c) La Russie<br>
+        <input type="radio" name="q3" value="d"> d) L’Indonésie<br>
+        <br>
+    </div>
+    
+    <div class="question">
+        <p>4️⃣ Quel phénomène est aggravé par la déforestation massive ?</p>
+        <input type="radio" name="q4" value="a"> a) Le réchauffement climatique<br>
+        <input type="radio" name="q4" value="b"> b) La hausse des océans<br>
+        <input type="radio" name="q4" value="c"> c) La baisse des températures<br>
+        <input type="radio" name="q4" value="d"> d) La perte d’eau douce<br>
+        <br>
+    </div>
+    
+    <div class="question">
+        <p>5️⃣ Quelle est la proportion de terres cultivables dégradées par l’agriculture intensive ?</p>
+        <input type="radio" name="q5" value="a"> a) 5%<br>
+        <input type="radio" name="q5" value="b"> b) 15%<br>
+        <input type="radio" name="q5" value="c"> c) 25%<br>
+        <input type="radio" name="q5" value="d"> d) 50%<br>
+        <br>
+    </div>
+    
+    <div class="question">
+        <p>6️⃣ Quel est le principal avantage des bioplastiques ?</p>
+        <input type="radio" name="q6" value="a"> a) Ils sont biodégradables<br>
+        <input type="radio" name="q6" value="b"> b) Ils ne coûtent rien à produire<br>
+        <input type="radio" name="q6" value="c"> c) Ils n’ont aucun impact environnemental<br>
+        <input type="radio" name="q6" value="d"> d) Ils ne sont pas recyclables<br>
+        <br>
+    </div>
+    
+    <div class="question">
+        <p>7️⃣ Quel est le pays le plus performant en matière d’énergie solaire ?</p>
+        <input type="radio" name="q7" value="a"> a) Les États-Unis<br>
+        <input type="radio" name="q7" value="b"> b) La Chine<br>
+        <input type="radio" name="q7" value="c"> c) Le Japon<br>
+        <input type="radio" name="q7" value="d"> d) L’Allemagne<br>
+        <br>
+    </div>
+    
+    <div class="question">
+        <p>8️⃣ Quelle industrie est la plus gourmande en eau ?</p>
+        <input type="radio" name="q8" value="a"> a) Le textile<br>
+        <input type="radio" name="q8" value="b"> b) L’agriculture<br>
+        <input type="radio" name="q8" value="c"> c) L’électronique<br>
+        <input type="radio" name="q8" value="d"> d) Le tourisme<br>
+        <br>
+    </div>
+    
+    <div class="question">
+        <p>9️⃣ Comment appelle-t-on une entreprise qui compense ses émissions de carbone ?</p>
+        <input type="radio" name="q9" value="a"> a) Une entreprise verte<br>
+        <input type="radio" name="q9" value="b"> b) Une entreprise climatiquement neutre<br>
+        <input type="radio" name="q9" value="c"> c) Une entreprise zéro carbone<br>
+        <input type="radio" name="q9" value="d"> d) Une entreprise polluante<br>
+        <br>
+    </div>
+    
+    <div class="question">
+        <p>🔟 Quel est le plus grand obstacle au recyclage du plastique ?</p>
+        <input type="radio" name="q10" value="a"> a) Le coût élevé du recyclage<br>
+        <input type="radio" name="q10" value="b"> b) Le manque de centres de recyclage<br>
+        <input type="radio" name="q10" value="c"> c) Les plastiques ne se recyclent pas<br>
+        <input type="radio" name="q10" value="d"> d) Tous les plastiques ne sont pas recyclables<br>
+        <br>
+    </div>
+    <button type="submit">Validez mes réponses</button>
+</form>
 
-        <div class="question">
-            <p>4️⃣ Quel phénomène est aggravé par la déforestation massive ?</p>
-            <input type="radio" name="q3" value="a"> a) Le réchauffement climatique<br>
-            <input type="radio" name="q3" value="b"> b) La hausse des océans<br>
-            <input type="radio" name="q3" value="c"> c) La baisse des températures<br>
-            <input type="radio" name="q3" value="d"> d) La perte d’eau douce<br>
-            <br>
-        </div>
-
-        <div class="question">
-            <p>5️⃣ Quelle est la proportion de terres cultivables dégradées par l’agriculture intensive ?</p>
-            <input type="radio" name="q4" value="a"> a) 5%<br>
-            <input type="radio" name="q4" value="b"> b) 15%<br>
-            <input type="radio" name="q4" value="c"> c) 25%<br>
-            <input type="radio" name="q4" value="d"> d) 50%<br>
-            <br>
-        </div>
-
-        <div class="question">
-            <p>6️⃣ Quel est le principal avantage des bioplastiques ?</p>
-            <input type="radio" name="q5" value="a"> a) Ils sont biodégradables<br>
-            <input type="radio" name="q5" value="b"> b) Ils ne coûtent rien à produire<br>
-            <input type="radio" name="q5" value="c"> c) Ils n’ont aucun impact environnemental<br>
-            <input type="radio" name="q5" value="d"> d) Ils ne sont pas recyclables<br>
-            <br>
-        </div>
-
-        <div class="question">
-            <p>7️⃣ Quel est le pays le plus performant en matière d’énergie solaire ?</p>
-            <input type="radio" name="q6" value="a"> a) Les États-Unis<br>
-            <input type="radio" name="q6" value="b"> b) La Chine<br>
-            <input type="radio" name="q6" value="c"> c) Le Japon<br>
-            <input type="radio" name="q6" value="d"> d) L’Allemagne<br>
-            <br>
-        </div>
-
-        <div class="question">
-            <p>8️⃣ Quelle industrie est la plus gourmande en eau ?</p>
-            <input type="radio" name="q7" value="a"> a) Le textile<br>
-            <input type="radio" name="q7" value="b"> b) L’agriculture<br>
-            <input type="radio" name="q7" value="c"> c) L’électronique<br>
-            <input type="radio" name="q7" value="d"> d) Le tourisme<br>
-            <br>
-        </div>
-
-        <div class="question">
-            <p>9️⃣ Comment appelle-t-on une entreprise qui compense ses émissions de carbone ?</p>
-            <input type="radio" name="q8" value="a"> a) Une entreprise verte<br>
-            <input type="radio" name="q8" value="b"> b) Une entreprise climatiquement neutre<br>
-            <input type="radio" name="q8" value="c"> c) Une entreprise zéro carbone<br>
-            <input type="radio" name="q8" value="d"> d) Une entreprise polluante<br>
-            <br>
-        </div>
-
-        <div class="question">
-            <p>🔟 Quel est le plus grand obstacle au recyclage du plastique ?</p>
-            <input type="radio" name="q9" value="a"> a) Le coût élevé du recyclage<br>
-            <input type="radio" name="q9" value="b"> b) Le manque de centres de recyclage<br>
-            <input type="radio" name="q9" value="c"> c) Les plastiques ne se recyclent pas<br>
-            <input type="radio" name="q9" value="d"> d) Tous les plastiques ne sont pas recyclables<br>
-            <br>
-        </div>
-        <button type="submit">Validez mes réponses</button>
-    </form>
-
-    <script>
-        document.querySelector('form').addEventListener('submit', function (e) {
-            e.preventDefault();
-
-            // Niveau Facile Définition des réponses correctes (les valeurs correspondent aux attributs "value" des inputs)
-            const bonnesReponses = {
-                q1: 'b',  // Le dioxyde de carbone (CO₂)
-                q2: 'c',  //  Fermer l’eau pendant le brossage de dents
-                q3: 'c',  // Une bouteille en plastique
-                q4: 'a',  // L’énergie solaire 
-                q5: 'b',  // Le plastique
-                q6: 'b',  // Trois flèches formant un triangle
-                q7: 'b',  // Utiliser des ampoules à faible consommation
-                q8: 'c',  // Utiliser des sacs réutilisables
-                q9: 'a',  // Le dauphin
-                q10: 'b',  // Bleu
-            };
-
-            // Texte des bonnes réponses à afficher
-            const texteReponses = {
-                q1: "Le dioxyde de carbone (CO₂)",
-                q2: "Fermer l’eau pendant le brossage de dents",
-                q3: "Une bouteille en plastique",
-                q4: "L’énergie solaire e",
-                q5: " Le plastique",
-                q6: "Trois flèches formant un triangle",
-                q7: "Utiliser des ampoules à faible consommation",
-                q8: "Utiliser des sacs réutilisables",
-                q9: "Le dauphin",
-                q10: "Bleu",
-            };
-
-            let score = 0;
-            // Vérification des réponses
-            for (let question in bonnesReponses) {
-                const selected = document.querySelector(`input[name="${question}"]:checked`);
-                if (selected && selected.value === bonnesReponses[question]) {
-                    score++;
-                }
-            }
-
-            // Création de l'affichage (uniquement score et bonnes réponses)
-            let output = `<h2 style="color: blue; margin: 0;">🌱 Score : ${score}/10 🌱</h2>`;
-            output += `<h3 style="color: green; margin: 0;">Bonnes réponses :</h3>`;
-            output += `<ul style="list-style: none; padding: 0; margin: 0;">`;
-            for (let question in texteReponses) {
-                output += `<li style="color: green; margin: 5px 0;">Bonnes réponses : ${texteReponses[question]}</li>`;
-            }
-            output += `</ul>`;
-
-            // Affichage dans l'élément dédié aux résultats
-            document.getElementById('resultContainer').innerHTML = output;
-            document.querySelector('form').reset();
-        });
-    </script>
-
+     <!-- Conteneur de résultats pour le quiz Facile -->
+     <div id="resultContainerDifficile"></div>
 
     <script>
-        document.querySelector('form').addEventListener('submit', function (e) {
-            e.preventDefault();
-
-
-            // Niveau Moyen  Définition des réponses correctes (les valeurs correspondent aux attributs "value" des inputs)
-            const bonnesReponses = {
-                q1: 'c',  // Les émissions de voitures
-                q2: 'b',  // Le réchauffement climatique
-                q3: 'b',  // Une bouteille en plastique
-                q4: 'a',  // Le CO₂
-                q5: 'c',  // Elles polluent l’air
-                q6: 'a',  // Une énergie qui ne pollue pas l’environnement
-                q7: 'b',  // Des déchets alimentaires
-                q8: 'b',  // Le métal
-                q9: 'b',  // La Chine
-                q10: 'd',  // 450 ans
-            };
-
-            // Texte des bonnes réponses à afficher
-            const texteReponses = {
-                q1: "Les émissions de voitures",
-                q2: " Le réchauffement climatique",
-                q3: "Une bouteille en plastique",
-                q4: "Le CO₂",
-                q5: "Elles polluent l’air",
-                q6: "Une énergie qui ne pollue pas l’environnement",
-                q7: "Des déchets alimentaires",
-                q8: "Le métal",
-                q9: "La Chine",
-                q10: "450 ans",
-            };
-
-
-            let score = 0;
-            // Vérification des réponses
-            for (let question in bonnesReponses) {
-                const selected = document.querySelector(`input[name="${question}"]:checked`);
-                if (selected && selected.value === bonnesReponses[question]) {
-                    score++;
-                }
+        // Gestionnaire pour le quiz Facile
+        document.getElementById('formFacile').addEventListener('submit', function(e) {
+          e.preventDefault();
+    
+          // Exemple de définition des bonnes réponses pour le niveau Facile
+          const bonnesReponses = {
+            q1: 'b',
+            q2: 'c',
+            q3: 'c',
+            q4: 'a',
+            q5: 'b',
+            q6: 'b',
+            q7: 'b',
+            q8: 'c',
+            q9: 'a',
+            q10: 'b'
+          };
+    
+          const texteReponses = {
+            q1: "Le dioxyde de carbone (CO₂)",
+            q2: "Fermer l’eau pendant le brossage de dents",
+            q3: "Une bouteille en plastique",
+            q4: "L’énergie solaire",
+            q5: "Le plastique",
+            q6: "Trois flèches formant un triangle",
+            q7: "Utiliser des ampoules à faible consommation",
+            q8: "Utiliser des sacs réutilisables",
+            q9: "Le dauphin",
+            q10: "Bleu"
+          };
+    
+          let score = 0;
+          for (let question in bonnesReponses) {
+            const selected = document.querySelector(`#formFacile input[name="${question}"]:checked`);
+            if (selected && selected.value === bonnesReponses[question]) {
+              score++;
             }
-
-            // Création de l'affichage (uniquement score et bonnes réponses)
-            let output = `<h2 style="color: blue; margin: 0;">🌱 Score : ${score}/10 🌱</h2>`;
-            output += `<h3 style="color: green; margin: 0;">Bonnes réponses :</h3>`;
-            output += `<ul style="list-style: none; padding: 0; margin: 0;">`;
-            for (let question in texteReponses) {
-                output += `<li style="color: green; margin: 5px 0;">Bonnes réponses : ${texteReponses[question]}</li>`;
-            }
-            output += `</ul>`;
-
-            // Affichage dans l'élément dédié aux résultats
-            document.getElementById('resultContainer').innerHTML = output;
-            document.querySelector('form').reset();
+          }
+    
+          let output = `<h2 style="color: blue; margin: 0;">🌱 Score : ${score}/10 🌱</h2>`;
+          output += `<h3 style="color: green; margin: 0;">Bonnes réponses :</h3><ul style="list-style: none; padding: 0; margin: 0;">`;
+          for (let question in texteReponses) {
+            output += `<li style="color: green; margin: 5px 0;">Bonnes réponses : ${texteReponses[question]}</li>`;
+          }
+          output += `</ul>`;
+    
+          document.getElementById('resultContainerFacile').innerHTML = output;
+          document.getElementById('formFacile').reset();
         });
-    </script>
+    
+        // Gestionnaire pour le quiz Moyen
+        document.getElementById('formMoyen').addEventListener('submit', function(e) {
+          e.preventDefault();
+    
+          // Exemple de définition des bonnes réponses pour le niveau Moyen
+          const bonnesReponses = {
+            q1: 'c',
+            q2: 'b',
+            q3: 'c',
+            q4: 'c',
+            q5: 'a',
+            q6: 'a',
+            q7: 'b',
+            q8: 'b',
+            q9: 'b',
+            q10: 'd'
+          };
+    
+          const texteReponses = {
+            q1: "Les émissions de voitures",
+            q2: "Le réchauffement climatique",
+            q3: "L’énergie nucléaire",
+            q4: "Le plastique",
+            q5: "Elles absorbent le CO₂",
+            q6: "Une énergie qui ne pollue pas l’environnement",
+            q7: "Des déchets alimentaires",
+            q8: "Le métal",
+            q9: "La Chine",
+            q10: "450 ans"
+          };
+    
+          let score = 0;
+          for (let question in bonnesReponses) {
+            const selected = document.querySelector(`#formMoyen input[name="${question}"]:checked`);
+            if (selected && selected.value === bonnesReponses[question]) {
+              score++;
+            }
+          }
+    
+          let output = `<h2 style="color: blue; margin: 0;">🌱 Score : ${score}/10 🌱</h2>`;
+          output += `<h3 style="color: green; margin: 0;">Bonnes réponses :</h3><ul style="list-style: none; padding: 0; margin: 0;">`;
+          for (let question in texteReponses) {
+            output += `<li style="color: green; margin: 5px 0;">Bonnes réponses : ${texteReponses[question]}</li>`;
+          }
+          output += `</ul>`;
+    
+          document.getElementById('resultContainerMoyen').innerHTML = output;
+          document.getElementById('formMoyen').reset();
+        });
+
+  // Gestionnaire pour le quiz Niveau Difficile
+  document.getElementById('formDifficile').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      // Définition des bonnes réponses pour le niveau difficile
+      const bonnesReponses = {
+        q1: 'c', // La menace pour les coraux et coquillages
+        q2: 'c', // Les CFC (chlorofluorocarbures)
+        q3: 'b', // Le Brésil
+        q4: 'a', // Le réchauffement climatique
+        q5: 'c', // 25%
+        q6: 'a', // Ils sont biodégradables
+        q7: 'b', // La Chine
+        q8: 'b', // L’agriculture
+        q9: 'b', // Une entreprise climatiquement neutre
+        q10: 'd' // Tous les plastiques ne sont pas recyclables
+      };
+
+      // Correspondance texte des bonnes réponses
+      const texteReponses = {
+        q1: "La menace pour les coraux et coquillages",
+        q2: "Les CFC (chlorofluorocarbures)",
+        q3: "Le Brésil",
+        q4: "Le réchauffement climatique",
+        q5: "25%",
+        q6: "Ils sont biodégradables",
+        q7: "La Chine",
+        q8: "L’agriculture",
+        q9: "Une entreprise climatiquement neutre",
+        q10: "Tous les plastiques ne sont pas recyclables"
+      };
+
+      let score = 0;
+      // Vérification des réponses
+      for (let question in bonnesReponses) {
+        const selected = document.querySelector(`#formDifficile input[name="${question}"]:checked`);
+        if (selected && selected.value === bonnesReponses[question]) {
+          score++;
+        }
+      }
+
+      // Création de l'affichage du score et des bonnes réponses
+      let output = `<h2 style="color: blue; margin: 0;">🌍 Score : ${score}/10 🌍</h2>`;
+      output += `<h3 style="color: green; margin: 0;">Bonnes réponses :</h3>`;
+      output += `<ul style="list-style: none; padding: 0; margin: 0;">`;
+      for (let question in texteReponses) {
+        output += `<li style="color: green; margin: 5px 0;">Bonnes réponses : ${texteReponses[question]}</li>`;
+      }
+      output += `</ul>`;
+
+      document.getElementById('resultContainerDifficile').innerHTML = output;
+      document.getElementById('formDifficile').reset();
+    });
+
+      </script>
 
 
 
