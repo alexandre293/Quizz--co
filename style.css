@@ -85,3 +85,26 @@ button[type="submit"]:hover {
 
 
 
+.menuitem {
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    background: #388e3c;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.menu {
+    background-color: #2e7d32;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}   
